@@ -959,6 +959,7 @@ export function SideMenu({
                 data-action="runs"
                 isCollapsed={isCollapsed}
                 yieldActiveToFavorite
+                // [NEW FIX] Keep Runs/Sessions/Webhooks highlighted on sub-pages
                 matchPrefix
               />
               <SideMenuItem

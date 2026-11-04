@@ -61,6 +61,12 @@ export function SideMenuLabel({
   );
 }
 
+// ==============================================================================
+// [NEW FIX] Sidebar Navigation Active Highlight Helpers
+// Enables parent navigation items (Tasks, Runs, etc.) to retain active highlight
+// on nested detail routes with segment-boundary safety.
+// ==============================================================================
+
 /**
  * Normalizes a URL path by stripping any hash, query parameters, and trailing slashes.
  */

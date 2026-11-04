@@ -59,6 +59,7 @@ type SideMenuItemConfig = {
   inactiveIconColor?: string;
   to: string;
   matchPrefix?: boolean;
+  // [NEW FIX] Extra sub-paths (e.g. /tasks, /agents) that activate this parent item
   nestedPaths?: string[];
   dataAction?: string;
   badge?: ReactNode;

@@ -180,6 +180,7 @@ function DashboardChildMenuItem({
       activeIconColor={activeIconColor}
       inactiveIconColor={inactiveIconColor}
       to={item.path}
+      // [NEW FIX] Keep individual dashboard highlighted on sub-tabs
       matchPrefix={true}
       isCollapsed={isCollapsed}
       disableIconHover
